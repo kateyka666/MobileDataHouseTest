@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		79423F6C26DB623A003DE857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79423F6B26DB623A003DE857 /* AppDelegate.swift */; };
 		79423F6E26DB623A003DE857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79423F6D26DB623A003DE857 /* SceneDelegate.swift */; };
-		79423F7026DB623A003DE857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79423F6F26DB623A003DE857 /* ViewController.swift */; };
+		79423F7026DB623A003DE857 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79423F6F26DB623A003DE857 /* StartViewController.swift */; };
 		79423F7326DB623A003DE857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79423F7126DB623A003DE857 /* Main.storyboard */; };
 		79423F7526DB623C003DE857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79423F7426DB623C003DE857 /* Assets.xcassets */; };
 		79423F7826DB623C003DE857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79423F7626DB623C003DE857 /* LaunchScreen.storyboard */; };
+		79423F8026DB637E003DE857 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79423F7F26DB637E003DE857 /* ImageManager.swift */; };
+		79423F8226DB6B9F003DE857 /* ImagesFromAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79423F8126DB6B9F003DE857 /* ImagesFromAPI.swift */; };
+		79423F8426DB6D46003DE857 /* ImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79423F8326DB6D46003DE857 /* ImagesCollectionViewController.swift */; };
+		79423F8626DB741C003DE857 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79423F8526DB741C003DE857 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79423F6826DB623A003DE857 /* MobileDataHouseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDataHouseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79423F6B26DB623A003DE857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79423F6D26DB623A003DE857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79423F6F26DB623A003DE857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79423F6F26DB623A003DE857 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		79423F7226DB623A003DE857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79423F7426DB623C003DE857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79423F7726DB623C003DE857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79423F7926DB623C003DE857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79423F7F26DB637E003DE857 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		79423F8126DB6B9F003DE857 /* ImagesFromAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesFromAPI.swift; sourceTree = "<group>"; };
+		79423F8326DB6D46003DE857 /* ImagesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewController.swift; sourceTree = "<group>"; };
+		79423F8526DB741C003DE857 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,75 @@
 		79423F6A26DB623A003DE857 /* MobileDataHouseTest */ = {
 			isa = PBXGroup;
 			children = (
-				79423F6B26DB623A003DE857 /* AppDelegate.swift */,
-				79423F6D26DB623A003DE857 /* SceneDelegate.swift */,
-				79423F6F26DB623A003DE857 /* ViewController.swift */,
-				79423F7126DB623A003DE857 /* Main.storyboard */,
-				79423F7426DB623C003DE857 /* Assets.xcassets */,
-				79423F7626DB623C003DE857 /* LaunchScreen.storyboard */,
-				79423F7926DB623C003DE857 /* Info.plist */,
+				79423F8926DCE073003DE857 /* Controllers */,
+				79423F8826DCE066003DE857 /* Storyboards */,
+				79423F8726DCE05D003DE857 /* Model */,
+				79423F8A26DCE07C003DE857 /* Managers */,
+				79423F8D26DCE0CB003DE857 /* Cells */,
+				79423F8C26DCE097003DE857 /* Supporting Files */,
+				79423F8B26DCE08C003DE857 /* Resources */,
 			);
 			path = MobileDataHouseTest;
+			sourceTree = "<group>";
+		};
+		79423F8726DCE05D003DE857 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79423F8126DB6B9F003DE857 /* ImagesFromAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79423F8826DCE066003DE857 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				79423F7126DB623A003DE857 /* Main.storyboard */,
+				79423F7626DB623C003DE857 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		79423F8926DCE073003DE857 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79423F6F26DB623A003DE857 /* StartViewController.swift */,
+				79423F8326DB6D46003DE857 /* ImagesCollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		79423F8A26DCE07C003DE857 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				79423F7F26DB637E003DE857 /* ImageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		79423F8B26DCE08C003DE857 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79423F7426DB623C003DE857 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79423F8C26DCE097003DE857 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79423F6B26DB623A003DE857 /* AppDelegate.swift */,
+				79423F6D26DB623A003DE857 /* SceneDelegate.swift */,
+				79423F7926DB623C003DE857 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79423F8D26DCE0CB003DE857 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				79423F8526DB741C003DE857 /* ImageCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79423F7026DB623A003DE857 /* ViewController.swift in Sources */,
+				79423F8226DB6B9F003DE857 /* ImagesFromAPI.swift in Sources */,
+				79423F7026DB623A003DE857 /* StartViewController.swift in Sources */,
 				79423F6C26DB623A003DE857 /* AppDelegate.swift in Sources */,
+				79423F8626DB741C003DE857 /* ImageCollectionViewCell.swift in Sources */,
 				79423F6E26DB623A003DE857 /* SceneDelegate.swift in Sources */,
+				79423F8426DB6D46003DE857 /* ImagesCollectionViewController.swift in Sources */,
+				79423F8026DB637E003DE857 /* ImageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96UHXBP52X;
-				INFOPLIST_FILE = MobileDataHouseTest/Info.plist;
+				INFOPLIST_FILE = "MobileDataHouseTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96UHXBP52X;
-				INFOPLIST_FILE = MobileDataHouseTest/Info.plist;
+				INFOPLIST_FILE = "MobileDataHouseTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
