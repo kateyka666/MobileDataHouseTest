@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		79423F6826DB623A003DE857 /* MobileDataHouseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDataHouseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79423F6826DB623A003DE857 /* MobileDataHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDataHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79423F6B26DB623A003DE857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79423F6D26DB623A003DE857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		79423F6F26DB623A003DE857 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		79423F5F26DB623A003DE857 = {
 			isa = PBXGroup;
 			children = (
-				79423F6A26DB623A003DE857 /* MobileDataHouseTest */,
+				79423F6A26DB623A003DE857 /* MobileDataHouse */,
 				79423F6926DB623A003DE857 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		79423F6926DB623A003DE857 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79423F6826DB623A003DE857 /* MobileDataHouseTest.app */,
+				79423F6826DB623A003DE857 /* MobileDataHouse.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79423F6A26DB623A003DE857 /* MobileDataHouseTest */ = {
+		79423F6A26DB623A003DE857 /* MobileDataHouse */ = {
 			isa = PBXGroup;
 			children = (
 				79423F8926DCE073003DE857 /* Controllers */,
@@ -72,7 +72,7 @@
 				79423F8C26DCE097003DE857 /* Supporting Files */,
 				79423F8B26DCE08C003DE857 /* Resources */,
 			);
-			path = MobileDataHouseTest;
+			path = MobileDataHouse;
 			sourceTree = "<group>";
 		};
 		79423F8726DCE05D003DE857 /* Model */ = {
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79423F6726DB623A003DE857 /* MobileDataHouseTest */ = {
+		79423F6726DB623A003DE857 /* MobileDataHouse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79423F7C26DB623C003DE857 /* Build configuration list for PBXNativeTarget "MobileDataHouseTest" */;
+			buildConfigurationList = 79423F7C26DB623C003DE857 /* Build configuration list for PBXNativeTarget "MobileDataHouse" */;
 			buildPhases = (
 				79423F6426DB623A003DE857 /* Sources */,
 				79423F6526DB623A003DE857 /* Frameworks */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = MobileDataHouseTest;
+			name = MobileDataHouse;
 			productName = MobileDataHouseTest;
-			productReference = 79423F6826DB623A003DE857 /* MobileDataHouseTest.app */;
+			productReference = 79423F6826DB623A003DE857 /* MobileDataHouse.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 79423F6326DB623A003DE857 /* Build configuration list for PBXProject "MobileDataHouseTest" */;
+			buildConfigurationList = 79423F6326DB623A003DE857 /* Build configuration list for PBXProject "MobileDataHouse" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -182,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79423F6726DB623A003DE857 /* MobileDataHouseTest */,
+				79423F6726DB623A003DE857 /* MobileDataHouse */,
 			);
 		};
 /* End PBXProject section */
@@ -360,7 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96UHXBP52X;
-				INFOPLIST_FILE = "MobileDataHouseTest/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MobileDataHouse/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96UHXBP52X;
-				INFOPLIST_FILE = "MobileDataHouseTest/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MobileDataHouse/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79423F6326DB623A003DE857 /* Build configuration list for PBXProject "MobileDataHouseTest" */ = {
+		79423F6326DB623A003DE857 /* Build configuration list for PBXProject "MobileDataHouse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79423F7A26DB623C003DE857 /* Debug */,
@@ -403,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79423F7C26DB623C003DE857 /* Build configuration list for PBXNativeTarget "MobileDataHouseTest" */ = {
+		79423F7C26DB623C003DE857 /* Build configuration list for PBXNativeTarget "MobileDataHouse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79423F7D26DB623C003DE857 /* Debug */,
